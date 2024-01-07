@@ -1,86 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Transfers, Serviços Turísticos, Mendoza, Vinícolas, Alta Montanha, Passeios, Experiências">
+    <meta name="description" content="Oferecemos transfers e serviços turísticos em Mendoza, especializados em visitas a vinícolas e experiências na alta montanha. Descubra a beleza da região com nossos passeios personalizados.">
+    <meta name="Leodev" content="Leodev">
+    <meta name="geo.position" content="-32.8902;-68.8447">
     <title>Aconcagua Wine Tours</title>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
 
     <header>
-        <div class="logo">
-            <img src="logo.png" alt="Logo de la Empresa">
-        </div>
-        <nav>
+        <nav class="language-bar">
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Destinos</a></li>
-                <li><a href="#">Contacto</a></li>
-                <li><a href="#">Galería</a></li>
+                <li><a href="./index.html" class="language-link">Español<img src="./assets/img/es.png" alt="Español"></a></li>
+                <li><a href="./index-en.html" class="language-link">English<img src="./assets/img/en.png" alt="English"></a></li>
+                <li><a href="#" class="language-link">Português<img src="./assets/img/pt.png" alt="Português"></a></li>
+            </ul>
+        </nav>
+        <nav class="main-bar">
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="./pages/destinos-pt.html">Destinos</a></li>
+                <li class="logo">
+                    <a href="#">
+                        <img src="./assets/img/logo.png" alt="Logo da Empresa" class="logo-normal">
+                        <img src="./assets/img/logohover.png" alt="Logo da Empresa" class="logo-hover">
+                    </a>
+                </li>
+                <li><a href="./pages/nuestraflota-pt.html">Nossa frota</a></li>
+                <li><a href="./pages/contacto-pt.html">Contato</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
+
+        <a href="URL_DO_WHATSAPP" target="_blank"><img src="./assets/img/whatsapp.png" alt="WhatsApp" class="wfixed"></a>
+
         <section class="intro-section">
-            <div class="about-us">
-                <h1>Sobre Nosotros</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...</p>
+            <div class="intro-title">
+                <h1>Aconcagua Wine Tours</h1>
             </div>
-            <div class="image-carousel">
-                <!-- Aquí iría el código para tu carrusel de imágenes -->
+            <div class="content-container">
+                <div class="about-us">
+                    <p>Bem-vindo à <strong>Aconcagua Wine Tours</strong>, seu guia personalizado na bela região de Mendoza, Argentina. Especializamo-nos em oferecer experiências únicas de transfers e serviços turísticos, projetados para aqueles que buscam descobrir a magia das vinícolas e a majestade da alta montanha.</p>
+                
+                    <p>Imagine explorar vinícolas exclusivas, degustar vinhos locais exquisitos e mergulhar na cultura vinícola de Mendoza. Nossos transfers confortáveis e personalizados levá-lo-ão a descobrir a riqueza de cada vinícola, enquanto você se envolve na <strong>paixão</strong> e <strong>tradição</strong> vinícola da região.</p>
+                
+                    <p>Para os amantes da <strong>aventura</strong>, oferecemos emocionantes viagens à alta montanha, onde você pode maravilhar-se com paisagens impressionantes, respirar ar puro e experimentar a autêntica <strong>grandeza</strong> da natureza. Nossos serviços são projetados para proporcionar uma experiência inesquecível, cheia de momentos únicos e vistas espetaculares.</p>
+                
+                    <button class="button-17">Contate-nos</button>
+                </div>
+                
+                <div class="carousel-container">
+                    <span class="slideshow-container">
+                        <div class="Slidesbackground">
+                            <div class="mySlides fade">
+                                <img src="./assets/img/1.jpg" class="slideshow-image">
+                            </div>
+                            <div class="mySlides fade">
+                                <img src="./assets/img/2.webp" class="slideshow-image">
+                            </div>
+                            <div class="mySlides fade">
+                                <img src="./assets/img/1.jpg" class="slideshow-image">
+                            </div>
+                            <div class="mySlides fade">
+                                <img src="./assets/img/2.webp" class="slideshow-image">
+                            </div>
+                            <div class="mySlides fade">
+                                <img src="./assets/img/1.jpg" class="slideshow-image">
+                            </div>
+                            <div class="mySlides fade">
+                                <img src="./assets/img/2.webp" class="slideshow-image">
+                            </div>
+                        </div>
+                    </span>
+                </div>
             </div>
         </section>
 
         <section class="info-section">
-            <div class="info-left">
-                <h2>Información Importante</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...</p>
+            <div class="info">
+                <h3>Descubra o Encanto de Mendoza com <strong>Aconcagua Wine Tours</strong></h3>
+                <p>Na <strong>Aconcagua Wine Tours</strong>, nos esforçamos para oferecer um serviço excepcional desde o momento em que você faz sua reserva. Reserve facilmente e rapidamente através do <strong>WhatsApp</strong>, desfrutando da conveniência de um processo sem complicações.</p>
+                <p>Conte com atendimento personalizado das <strong>08:00 às 23:00</strong>, garantindo que estaremos aqui para responder às suas perguntas e atender às suas necessidades a qualquer momento do dia.</p>
+                <p>Além disso, garantimos detalhes do veículo e do motorista enviados no momento da reserva, para que você tenha todas as informações que precisa antes de embarcar em sua experiência.</p>
+                <p>Nossos motoristas são reconhecidos por sua pontualidade e compromisso com os horários acordados com os clientes. Queremos que sua viagem seja tão suave quanto o melhor vinho que você degustará em Mendoza.</p>
+                <p>E nosso compromisso final é oferecer um serviço personalizado e adaptado às necessidades de cada um de nossos clientes. Mais do que um simples transfer, queremos que você viva uma experiência única e memorável em cada canto de Mendoza.</p>
+                <P>Reserve conosco e descubra a combinação perfeita de <strong>conforto</strong>, <strong>atendimento personalizado</strong> e a rica tradição vinícola da região. Esperamos tornar sua viagem com a <strong>Aconcagua Wine Tours</strong> uma experiência inesquecível!</P>
+                <button class="button-17 button-172">Reservar</button>
             </div>
-            <div class="info-right">
-                <h2>Conoce Más</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...</p>
-            </div>
-        </section>
-
-        <section class="gallery-section">
-            <!-- Aquí iría el código para tu galería de imágenes -->
         </section>
 
         <section class="contact-section">
             <div class="contact-item">
-                <h3>Contacto 1</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...</p>
-                <button>Contactar</button>
+                <h3><strong>Translados</strong></h3>
+                <img src="./assets/img/1.jpg" alt="Translados">
+                <p>Na <strong>Aconcagua Wine Tours</strong>, transformamos sua chegada em uma experiência sem igual. Desde o momento em que pisa em terra firme, nosso serviço de <strong>translados desde o aeroporto</strong> mergulha você na comodidade e confiabilidade. Nossos motoristas simpáticos o recebem com profissionalismo, garantindo uma viagem sem preocupações até seu destino. Estendemos nossa atenção aos detalhes até as <strong>terminais de ônibus</strong>, garantindo uma transição fluida em cada etapa de sua jornada. Descubra o conforto e a excelência com a <strong>Aconcagua Wine Tours</strong>, onde cada translado é uma oportunidade para oferecer um serviço excepcional.</p>
+                <button class="button-17">Contate-nos</button>
             </div>
             <div class="contact-item">
-                <h3>Contacto 2</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...</p>
-                <button>Contactar</button>
+                <h3><strong>Bodegas e Vinhedos</strong></h3>
+                <img src="./assets/img/1.jpg" alt="Bodegas e Vinhedos">
+                <p>Na <strong>Aconcagua Wine Tours</strong>, convidamos você a mergulhar em uma experiência vinícola única desde o primeiro momento. Nosso serviço exclusivo de <strong>translados</strong> leva você de sua localização até as pitorescas <strong>bodegas e vinhedos</strong> da região com estilo e conforto. Nossos motoristas especializados não apenas garantem sua segurança, mas também fornecem um conhecimento profundo da riqueza vinícola local. Descubra a magia de Mendoza com translados personalizados que transformam cada viagem em uma aventura inesquecível entre vinhedos, onde a paixão e a tradição se entrelaçam para oferecer momentos incomparáveis.</p>
+                <button class="button-17">Contate-nos</button>
             </div>
             <div class="contact-item">
-                <h3>Contacto 3</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...</p>
-                <button>Contactar</button>
+                <h3><strong>Alta Montanha</strong></h3>
+                <img src="./assets/img/1.jpg" alt="Alta Montanha">
+                <p>Na <strong>Aconcagua Wine Tours</strong>, levamos você a novas alturas com nosso serviço exclusivo de <strong>translados para a majestosa alta montanha</strong>. Da sua localização até as impressionantes paisagens da cordilheira, nossos motoristas especializados guiarão você em uma jornada emocionante e segura. Aventure-se a explorar picos imponentes, respirar ar puro e mergulhar na grandiosidade da natureza. Nossos <strong>translados</strong> são projetados para oferecer uma conexão perfeita com a maravilha da alta montanha, proporcionando não apenas transporte, mas uma experiência que ficará gravada em sua memória.</p>
+                <button class="button-17">Contate-nos</button>
             </div>
             <div class="contact-item">
-                <h3>Contacto 4</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...</p>
-                <button>Contactar</button>
+                <h3><strong>Personalizados</strong></h3>
+                <img src="./assets/img/1.jpg" alt="Personalizados">
+                <p>Na <strong>Aconcagua Wine Tours</strong>, nos orgulhamos em oferecer a possibilidade de projetar viagens totalmente <strong>personalizadas</strong> sob medida para seus sonhos. Da porta de sua casa aos destinos mais fascinantes, nossos serviços de <strong>translados personalizados</strong> proporcionam a flexibilidade e o conforto que você procura em cada aventura. Nossa equipe cuidará de cada detalhe, garantindo que sua viagem seja única e adaptada às suas preferências. Seja explorando <strong>bodegas</strong>, conquistando altas cúpulas ou mergulhando na cultura local, cada <strong>translado</strong> é o início de uma experiência exclusiva e personalizada.</p>
+                <button class="button-17">Contate-nos</button>
             </div>
         </section>
-    </main>
 
-    <footer>
-        <p>&copy; 2024 Empresa de Turismo</p>
-    </footer>
-
-</body>
+        <footer>
+            <div class="social-icons">
+                <a href="URL_DO_FACEBOOK" target="_blank" class="social-icon"><img src="./assets/img/facebook.png" alt="Facebook"></a>
+                <a href="URL_DO_INSTAGRAM" target="_blank" class="social-icon"><img src="./assets/img/instagram.png" alt="Instagram"></a>
+                <a href="URL_DO_TWITTER" target="_blank" class="social-icon"><img src="./assets/img/twitter.png" alt="Twitter"></a>
+                <a href="URL_DO_TRIPADVISOR" target="_blank" class="social-icon"><img src="./assets/img/tripadvisor.png" alt="TripAdvisor"></a>
+                <a href="URL_DO_GOOGLE_MY_BUSINESS" target="_blank" class="social-icon"><img src="./assets/img/google.png" alt="Google My Business"></a>
+            </div>
+            <p>&copy; 2024 Aconcagua Wine Tours. Todos os direitos reservados.</p>
+        </footer>
+        
+        <script src="./scripts/carrusel.js"></script>
+    </body>
 </html>

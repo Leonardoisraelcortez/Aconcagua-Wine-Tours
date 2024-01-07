@@ -1,0 +1,56 @@
+main {
+    text-align: center;
+    background-color: #01011c;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+    color: #fff;
+}
+
+input,
+textarea,
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 1rem;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    background-color: #262340;
+    color: white;
+    border-radius: 5px;
+}
+
+input:hover::placeholder,
+textarea:hover::placeholder,
+input:focus::placeholder,
+textarea:focus::placeholder {
+    border-radius: 5px;
+}
+
+#resultadoEnvio {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#resultMessage{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.mtitle{
+    text-shadow: 0 0 0.4rem #EFB810;
+    color: #EFB810;
+    font-size: 4rem;
+}
+
+.contacto-title{
+    color: white;
+    font-size: 3.5rem;
+}
