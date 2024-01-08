@@ -36,6 +36,17 @@ body{
     text-shadow: 0 0 0.1rem #3f112e;
 }
 
+.info{
+    margin-left: 0;
+    margin-right: 0;
+    min-width: 100%;
+}
+
+
+.info-ti{
+    margin-bottom: 2rem !important;
+}
+
 p{
     margin: auto;
     max-width: 90%;
@@ -59,17 +70,14 @@ strong {
     box-sizing: border-box;
 }
 
-.destination-info-left h2 {
-    margin-bottom: 10px;
-}
-
 .destination-info-left p {
     text-align: justify;
 }
 
 .button-nues {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
 }
 
 
