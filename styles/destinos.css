@@ -17,6 +17,9 @@ main {
     text-shadow: 0 0 0.4rem #EFB810;
     text-align: center;
 }
+.m-tittle-d h1 {
+    font-size: 7rem;
+}
 
 .tittle{
     text-align: center;

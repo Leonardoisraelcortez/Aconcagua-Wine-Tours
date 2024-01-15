@@ -39,7 +39,7 @@ body{
 .info{
     margin-left: 0;
     margin-right: 0;
-    min-width: 100%;
+    max-width: 100%;
 }
 
 
@@ -84,14 +84,21 @@ strong {
 
 
 
-
+.cars{
+    display: flex;
+    max-width: 100%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
 .carousel-container {
     overflow: hidden;
     display: flex;
     align-items: center;
     max-width: 30%;
-    margin-left: 3rem;
+    margin-left: 1rem;
 }
 
 .slideshow-container {

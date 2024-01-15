@@ -170,7 +170,7 @@ a:hover,
 .intro-title h1 {
     text-shadow: 0 0 0.4rem #EFB810;
     color: #EFB810;
-    font-size: 4rem;
+    font-size: 7rem;
 }
 
 .content-container {
@@ -745,9 +745,15 @@ p {
         width: 0;
         min-width: 100vw
     }
+    .gallery-section img{
+        transition: none;
+    }
+    .gallery-section img:hover{
+        transform: none;
+    }
 }    
 
 
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
-    /* Estilos para este rango de pantalla aquí */
+
 }

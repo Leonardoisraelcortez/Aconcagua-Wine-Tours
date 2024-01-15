@@ -54,3 +54,8 @@ textarea:focus::placeholder {
     color: white;
     font-size: 3.5rem;
 }
+
+#resultadoEnvio {
+    color: white;
+    font-size: 2rem;
+}
