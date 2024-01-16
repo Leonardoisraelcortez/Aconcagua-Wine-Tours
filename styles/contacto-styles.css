@@ -59,3 +59,22 @@ textarea:focus::placeholder {
     color: white;
     font-size: 2rem;
 }
+@media only screen and (min-width: 350px) and (max-width: 1024px) {
+    .mtitle{
+        font-size: 3rem;
+        padding-top: 5rem;
+    }
+    .contacto-title{
+        font-size: 2rem;
+    }
+    #contactForm{
+        padding: 1rem;
+    }
+    .button-17{
+        display: inline-block;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+}

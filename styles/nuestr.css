@@ -116,3 +116,58 @@ strong {
     height: auto;
 }
 
+footer{
+    padding: 0;
+}
+footer p{
+    color: #EFB810;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.gallery-section{
+    display: none;
+}
+
+@media only screen and (min-width: 350px) and (max-width: 1024px) {
+
+    .mySlides{
+        background-image: none;
+    }
+    .destination-row{
+        border-radius: 0;
+        padding: 0;
+    }
+    .tittle{
+        margin-top: 1rem;
+    }
+    .button-nues{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cars{
+        display: block;
+    }
+
+    .carousel-container{
+        min-width: 100%;
+        overflow-x: hidden;
+        margin:0;
+        padding: 0;
+    }
+    .carousel-container{
+        display: none;
+    }
+    .gallery-section{
+        display: block;
+        background-color: white;
+    }
+    .galery-img img{
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+
+}

@@ -642,7 +642,7 @@ p {
         padding: 0;
     }
     .intro-title h1{
-        padding-top: 6rem;
+        padding-top: 5rem;
         font-size: 3rem;
     }
     .about-us p{
@@ -777,6 +777,9 @@ p {
     }
     .gallery-section img:hover{
         transform: none;
+    }
+    .prlang{
+        margin-left: 0;
     }
 }    
 
