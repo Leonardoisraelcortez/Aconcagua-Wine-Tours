@@ -16,9 +16,11 @@ main {
     color: #EFB810;
     text-shadow: 0 0 0.4rem #EFB810;
     text-align: center;
+    
 }
 .m-tittle-d h1 {
     font-size: 7rem;
+    margin-top: 0;
 }
 
 .tittle{

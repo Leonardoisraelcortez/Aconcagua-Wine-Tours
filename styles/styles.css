@@ -15,8 +15,14 @@ header {
 }
 
 .language-bar {
-    background-color: #01011c;
+    min-width: 100%;
+    position: fixed;
+    background-color: rgb(1, 1, 28);
     padding: 0.5rem 2rem;
+    -webkit-box-shadow: 7px 5px 7px 5px rgb(1, 1, 28);
+    -moz-box-shadow: 7px 5px 7px 5px rgb(1, 1, 28);
+    box-shadow: 7px 5px 7px 5px rgb(1, 1, 28);
+    z-index: 10000000;
 }
 
 .language-bar ul {
@@ -25,6 +31,7 @@ header {
     justify-content: flex-end;
     margin: 0;
     padding: 0;
+    margin-right: 3rem;
 }
 
 .language-link {
@@ -65,15 +72,18 @@ header {
 
 .logo {
     position: relative;
+    z-index: 10000000000000;
 }
 
 .logo img {
     max-height: 8rem;
     transition: transform 0.3s ease;
+    z-index: 10000000000000;
 }
 
 .logo:hover img {
     transform: scale(1.15);
+    z-index: 10000000000000;
 }
 
 .logo img.logo-hover {
@@ -82,6 +92,7 @@ header {
     left: 0;
     max-height: 8rem;
     transform: rotate(0deg);
+    z-index: 10000000000000;
     
 }
 
@@ -163,7 +174,8 @@ a:hover,
 
 .intro-section {
     text-align: center;
-    padding: 50px 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: #01011c;
 }
 
@@ -171,6 +183,7 @@ a:hover,
     text-shadow: 0 0 0.4rem #EFB810;
     color: #EFB810;
     font-size: 7rem;
+    margin-top: 0;
 }
 
 .content-container {
@@ -186,6 +199,7 @@ a:hover,
     margin-right: 2rem;
     background-color: white;
     border-radius:2%;
+    margin-bottom: 2rem;
 }
 
 .about-us p {
@@ -424,6 +438,7 @@ box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3p
 
 
 .gallery-section {
+    overflow: hidden;
     display: flex;
     text-align: center;
     flex-wrap: wrap;
@@ -602,7 +617,7 @@ p {
         padding: 0;
         box-sizing: border-box;
     }
-    
+
     .info,
     .intro-section,
     .destination-row,
@@ -627,6 +642,7 @@ p {
         padding: 0;
     }
     .intro-title h1{
+        padding-top: 6rem;
         font-size: 3rem;
     }
     .about-us p{
@@ -722,14 +738,25 @@ p {
         border-radius: 0;
     }
     .language-bar{
+        padding: 0;
+        position: fixed;
         text-align: center;
-        padding: 1rem;
-        margin: auto;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2rem;
+        -webkit-box-shadow: 3px 5px 5px 5px rgb(1, 1, 28);
+        -moz-box-shadow: 3px 5px 5px 5px rgb(1, 1, 28);
+        box-shadow: 3px 5px 5px 5px rgb(1, 1, 28);
+    }
+    .prlang{
+        margin-left: 0;
     }
     .language-bar ul{
         text-align: center;
         align-items: center;
         justify-content: center;
+        margin-right: 0;
+        margin-left: 0;
     }
     .language-link img{
         width: 1rem;
