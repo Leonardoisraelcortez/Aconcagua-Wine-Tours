@@ -58,6 +58,8 @@ main {
 }
 
 .img-dest {
+    object-fit: cover;
+    height: auto;
     width: 30%;
     transition: transform 0.3s ease-in-out;
 }

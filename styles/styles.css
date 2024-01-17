@@ -307,12 +307,16 @@ box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3p
     overflow: hidden;
 }
 .mySlides {
+    object-fit: cover;
     border-radius:2%;
     width: 37.5rem;
     height: 32rem;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.mySlides img{
+    object-fit: cover;
 }
 
 .slideshow-container {
@@ -440,20 +444,25 @@ box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3p
 .gallery-section {
     overflow: hidden;
     display: flex;
-    text-align: center;
     flex-wrap: wrap;
-    justify-content:space-around;
+    justify-content: space-around;
     background-color: #01011c;
 }
 
-.gallery-section img {
-    align-items: center;
-    width: 30%;
+.gallery-img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery-image {
+    width: 30%; 
+    height: 400px; 
     margin: 1.3rem;
+    object-fit: cover;
     transition: transform 0.3s;
 }
 
-.gallery-section img:hover {
+.gallery-image:hover {
     transform: scale(1.2);
 }
 

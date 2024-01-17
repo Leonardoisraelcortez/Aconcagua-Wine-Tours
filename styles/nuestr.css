@@ -109,11 +109,11 @@ strong {
 
 .mySlides {
     display: none;
+    margin-bottom: 1rem;
 }
 
 .slideshow-image {
     width: 100%;
-    height: auto;
 }
 
 footer{
