@@ -166,6 +166,9 @@ footer p{
     .galery-img img{
         margin-bottom: 1rem;
     }
+    .intro-title{
+        margin-bottom: 1rem;
+    }
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {

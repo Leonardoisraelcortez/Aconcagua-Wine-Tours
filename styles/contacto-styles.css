@@ -62,7 +62,7 @@ textarea:focus::placeholder {
 @media only screen and (min-width: 350px) and (max-width: 1024px) {
     .mtitle{
         font-size: 3rem;
-        padding-top: 5rem;
+        padding-top: 7rem;
     }
     .contacto-title{
         font-size: 2rem;

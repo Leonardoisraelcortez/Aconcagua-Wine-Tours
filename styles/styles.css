@@ -607,6 +607,129 @@ footer p {
     color: #EFB810;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #01011c;
+    z-index: 1000;
+
+    &.menu-open {
+        img {
+            opacity: 1;
+        }
+    }
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+    li {
+        margin-top: 4.2rem;
+        font-size: 2rem;
+        color: #EFB810;
+        text-shadow: 0 0 0.4rem #EFB810;
+    }
+    a{
+        text-decoration: none;
+        color: #EFB810;
+        text-shadow: 0 0 0.4rem #EFB810;
+    }
+    img{
+        margin-top: 2rem;
+        max-width: 7rem;
+    }
+    h1{
+        font-size: 3rem;
+        padding: 0 !important;
+    }
+}
+
+.open-menu {
+    display: block;
+    font-size: 3rem;
+    color: #ffffff;
+    position: absolute;
+    top: 4rem;
+    right: 3rem;
+    z-index: 10000000000000000;
+}
+
+.close-menu {
+    display: none;
+    position: absolute;
+    top: 4rem;
+    right: 3rem;
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.open-menu {
+    display: none;
+}
+
 @media only screen and (min-width: 350px) and (max-width: 1024px) {
     *,
     *::before,
@@ -640,8 +763,9 @@ footer p {
         padding: 0;
     }
     .intro-title h1{
-        padding-top: 5rem;
+        padding-top: 7rem;
         font-size: 3rem;
+        margin-bottom: 1rem;
     }
     .about-us p{
         font-size: 1rem;
@@ -779,9 +903,15 @@ footer p {
     .prlang{
         margin-left: 0;
     }
+    .open-menu{
+        display: flex;
+    }
 }    
 
 
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
 
+    .open-menu{
+        display: none;
+    }
 }

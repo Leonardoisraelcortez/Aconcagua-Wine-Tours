@@ -126,7 +126,7 @@ main{
 
 .m-tittle-d h1{
     min-width: 100%;
-    padding-top: 5rem;
+    padding-top: 7rem;
     font-size: 3rem;
 }
 main .image-section{
@@ -142,6 +142,7 @@ main .image-section{
 }
 .tittle{
     font-size: 1.5rem;
+    margin-bottom: 1rem !important;
 }
 .button-dest button{
     font-size: 1rem;
@@ -155,6 +156,12 @@ main .image-section{
 .image-grid img{
     min-width: 100%;
 
+}
+.btnmd{
+    margin-bottom: 2rem;
+}
+.btndwn{
+    margin-bottom: 1rem;
 }
 }
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
