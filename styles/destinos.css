@@ -102,6 +102,150 @@ footer p{
     margin-bottom: 1rem;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logosolv{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logosolv img{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease;
+}
+.logosolv img:hover{
+    transform: scale(1.20);
+}
+
+
+
+.logosmon{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logosmon img{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease;
+}
+.logosmon img:hover{
+    transform: scale(1.20);
+}
+
+
+
+
+.logosvin{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #01011c;
+    border-radius: 3px;
+    padding-top: 1rem;
+}
+
+
+.logosvin img{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width:150px;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease;
+}
+.logosvin img:hover{
+    transform: scale(1.20);
+}
+
+
+
+.logosvin2{
+    padding-top: 1rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+
+.logosvin2 img{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width:150px;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease;
+}
+.logosvin2 img:hover{
+    transform: scale(1.20);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (min-width: 350px) and (max-width: 1024px) {
     main .tittle,
     main .m-tittle-d,
@@ -164,6 +308,40 @@ main .image-section{
 }
 .btndwn{
     margin-bottom: 1rem;
+}
+.logosvin{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center !important;
+    display:block;
+}
+.logosvin2{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center !important;
+    display:block;
+}
+.logosvin img{
+    margin-right: 3rem;
+}
+.logosvin2 img{
+    margin-right: 3rem;
+}
+.logosolv{
+    align-items: center;
+    justify-content: center;
+    text-align: center !important;
+    display:block;
+}
+.logosolv img{
+    margin-right: 2rem;
+}
+.logosmon img{
+    margin-right: 2rem;
 }
 }
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
